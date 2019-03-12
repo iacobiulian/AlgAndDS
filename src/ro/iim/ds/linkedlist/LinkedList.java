@@ -1,8 +1,10 @@
 package ro.iim.ds.linkedlist;
 
+import ro.iim.algorithms.TestUtils;
+
 public class LinkedList {
 
-    private Node first;
+    protected Node first;
 
     public LinkedList() {
         this.first = null;
@@ -18,6 +20,18 @@ public class LinkedList {
         this.first = newNode;
     }
 
+    public void insertAfter(String data, String after) {
+        Node newNode = new Node(data);
+        Node insertAfter = findLink(after);
+        if (insertAfter == null) {
+            System.out.println(after + " No such link");
+            return;
+        }
+
+        newNode.next = insertAfter.next;
+        insertAfter.next = newNode;
+    }
+
     public String removeFirst() {
         String data = this.first.data;
         this.first = this.first.next;
@@ -29,7 +43,7 @@ public class LinkedList {
         Node previousLink = this.first;
 
         while (current != null) {
-            if (current.data == data) {
+            if (current.data.equals(data)) {
                 previousLink.next = current.next;
                 return;
             }
@@ -42,7 +56,7 @@ public class LinkedList {
     public Node findLink(String data) {
         Node current = this.first;
         while (current != null) {
-            if (current.data == data)
+            if (current.data.equals(data))
                 return current;
             current = current.next;
         }
@@ -58,12 +72,44 @@ public class LinkedList {
         }
     }
 
-    public void displayNode(Node node) {
-        if (node == null) {
-            System.out.println("Node null");
-            return;
+    public static void main(String[] args) {
+        LinkedList linkedList = new LinkedList();
+        linkedList.displayLinkedList();
+        linkedList.insertFirst("Tim");
+        linkedList.insertFirst("Billy");
+        linkedList.insertFirst("Mandy");
+        linkedList.insertFirst("Ursa");
+        linkedList.insertFirst("Tony");
+        //linkedList.displayLinkedList();
+
+        linkedList.insertAfter("Hector", "Ursa");
+        //TestUtils.displayStars();
+        linkedList.displayLinkedList();
+        TestUtils.displayStars();
+
+        ListIterator listIterator = new ListIterator(linkedList);
+        while (listIterator.getCurrent() != null) {
+            listIterator.getCurrent().display();
+            listIterator.nextLink();
         }
 
-        System.out.println(node.data);
+        TestUtils.displayStars();
+
+        listIterator.reset();
+        listIterator.nextLink();
+        listIterator.nextLink();
+        listIterator.getCurrent().display();
+        listIterator.insertBefore("Soprano");
+        TestUtils.displayStars();
+        listIterator.reset();
+        while (listIterator.getCurrent() != null) {
+            listIterator.getCurrent().display();
+            listIterator.nextLink();
+        }
+
+        TestUtils.displayStars();
+
+        linkedList.displayLinkedList();
+
     }
 }

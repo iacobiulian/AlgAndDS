@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a5a156-8dbf-4e03-8cf9-254c90fe707a" name="Default Changelist" comment="" />
+    <list default="true" id="34a5a156-8dbf-4e03-8cf9-254c90fe707a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/ro/iim/algorithms/TestDrive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/ro/iim/ds/QNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/ro/iim/ds/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/ro/iim/ds/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/ro/iim/ds/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/ro/iim/ds/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/iim/algorithms/TestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/iim/algorithms/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DoubleEndedLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/LinkedList.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,60 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/ArrayAlgorithms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="398">
+              <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
               <folding>
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
+                <element signature="method#removeFirst#0;class#LinkedList#0" />
+                <element signature="method#displayLinkedList#0;class#LinkedList#0" />
+                <element signature="e#1234#1318#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/Node.java">
+        <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/ListIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding>
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DoubleEndedLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/TestDrive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +64,9 @@
       <find>throw</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -93,12 +76,18 @@
         <option value="$PROJECT_DIR$/src/ro/iim/algorithms/ArrayAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/Stack.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/Queue.java" />
-        <option value="$PROJECT_DIR$/src/ro/iim/algorithms/TestDrive.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/Node.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/queue/QNode.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/algorithms/TestDrive.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/algorithms/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/SortedLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DoubleEndedLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DNode.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/ListIterator.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/ds/linkedlist/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -106,6 +95,9 @@
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -161,7 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552046693842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552394907174" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Classes" />
   </component>
   <component name="RunDashboard">
@@ -176,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDrive">
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="Algorithms" />
@@ -184,8 +176,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.iim.algorithms.TestDrive" />
+    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.iim.ds.linkedlist.DoublyLinkedList" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.iim.ds.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.iim.ds.linkedlist.LinkedList" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.iim.ds.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.iim.algorithms.TestUtils" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -199,7 +217,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDrive" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.DoublyLinkedList" />
+        <item itemvalue="Application.TestUtils" />
         <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
@@ -219,8 +239,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24726477" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23413567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -229,7 +250,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21444201" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21444201" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,24 +301,6 @@
     <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/Collatz.java" />
     <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/BinarySearch.java" />
     <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/InsertionSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/ArrayAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/TestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -319,6 +322,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/ArrayAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/algorithms/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/SortedLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -330,23 +367,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="500">
+          <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
           <folding>
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/DoubleEndedLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/ListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+          <folding>
+            <element signature="method#removeFirst#0;class#LinkedList#0" />
+            <element signature="method#displayLinkedList#0;class#LinkedList#0" />
+            <element signature="e#1234#1318#1" />
+          </folding>
         </state>
       </provider>
     </entry>

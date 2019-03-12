@@ -1,8 +1,9 @@
 package ro.iim.algorithms;
 
 import ro.iim.ds.linkedlist.LinkedList;
+import ro.iim.ds.linkedlist.SortedLinkedList;
 
-public class TestDrive {
+public class TestUtils {
 
     public static void displayIntArray(int[] arr) {
         System.out.print("[ ");
@@ -28,20 +29,5 @@ public class TestDrive {
 
         //ArrayAlgorithms.linearSearch(a,66);
         //System.out.println(ArrayAlgorithms.binarySearch(sortedA, 4));
-
-        LinkedList linkedList = new LinkedList();
-        linkedList.displayLinkedList();
-        linkedList.insertFirst("Tim");
-        linkedList.insertFirst("Billy");
-        linkedList.insertFirst("Mandy");
-        linkedList.insertFirst("Ursa");
-        linkedList.insertFirst("Tony");
-        linkedList.displayLinkedList();
-
-        linkedList.removeLink("Mandy");
-        linkedList.removeLink("Billie");
-        displayStars();
-        linkedList.displayLinkedList();
-
     }
 }
