@@ -1,6 +1,6 @@
 package ro.iim.algorithms;
 
-public class ArrayAlgorithms {
+public class Searches {
 
     public static int[] insertionSortCresc(int[] arr) {
         int length = arr.length;
@@ -44,12 +44,13 @@ public class ArrayAlgorithms {
     //O(logN)
     //only for sorted arrays
     //returns the index of the found item
-    public static int binarySearch(int[] arr, int value) {
+    public static int binarySearchIterative(int[] arr, int value) {
         int lowIndex = 0;
         int highIndex = arr.length - 1;
 
         while (lowIndex <= highIndex) {
-            int middleIndex = lowIndex + (highIndex - lowIndex) / 2;
+            //int middleIndex = lowIndex + (highIndex - lowIndex) / 2;
+            int middleIndex = (lowIndex + highIndex) / 2;
 
             if (arr[middleIndex] == value)
                 return middleIndex;
@@ -61,5 +62,35 @@ public class ArrayAlgorithms {
         }
 
         return -1;
+    }
+
+    public static int binarySearchRecursive(int[] arr, int value) {
+        return bsrImplementation(arr, value, 0, arr.length - 1);
+    }
+
+    private static int bsrImplementation(int[] arr, int value, int lowIndex, int highIndex) {
+        if (lowIndex > highIndex)
+            return -1;
+
+        int middleIndex = (lowIndex + highIndex) / 2;
+        if (value == arr[middleIndex]) {
+            return middleIndex;
+        }
+
+        if (value > arr[middleIndex]) {
+            return bsrImplementation(arr, value, middleIndex + 1, highIndex);
+        } else {
+            return bsrImplementation(arr, value, lowIndex, middleIndex - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] a = {1, 3, 6, 7, 8, 3, 4, 2, 8, 1, 2, 4, 7};
+        int[] sortedA = {4, 6, 8, 9, 11, 13, 14, 16, 18, 2};
+
+        Searches.linearSearch(a, 66);
+        System.out.println(Searches.binarySearchRecursive(sortedA, 11));
+
+        TestUtils.displayStars();
     }
 }
