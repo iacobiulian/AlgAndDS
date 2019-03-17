@@ -25,6 +25,7 @@ public class TestUtils {
             System.out.print(x + " ");
         }
         System.out.print("]");
+        System.out.println();
     }
 
     public static void displayStringArray(String[] arr) {
