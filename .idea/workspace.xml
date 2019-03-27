@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a5a156-8dbf-4e03-8cf9-254c90fe707a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ro/iim/ds/binarytree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/iim/ds/binarytree/BinaryTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="34a5a156-8dbf-4e03-8cf9-254c90fe707a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +14,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/binarytree/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="119">
               <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <element signature="e#133#134#0" expanded="true" />
@@ -26,22 +24,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/binarytree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-613">
+            <state relative-caret-position="17">
               <caret line="109" column="64" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
               <folding>
                 <element signature="method#find#0;class#BinaryTree#0" />
                 <element signature="method#insert#0;class#BinaryTree#0" />
-                <element signature="e#599#1284#1" />
-                <element signature="e#684#1274#1" />
-                <element signature="e#761#1006#1" />
-                <element signature="e#863#988#1" />
-                <element signature="e#1012#1260#1" />
-                <element signature="e#1116#1242#1" />
                 <element signature="method#inOrder#0;class#BinaryTree#0" />
-                <element signature="e#1397#1517#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ro/iim/hashtable/HashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+              <folding>
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#1756#1757#0" expanded="true" />
+                <element signature="e#1784#1785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ro/iim/hashtable/DataItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/ro/iim/algorithms/QuickSortMedianOfThree.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/binarytree/Node.java" />
         <option value="$PROJECT_DIR$/src/ro/iim/ds/binarytree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/hashtable/DataItem.java" />
+        <option value="$PROJECT_DIR$/src/ro/iim/hashtable/HashTable.java" />
       </list>
     </option>
   </component>
@@ -110,8 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,16 +183,25 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="iim" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="iim" type="462c0819:PsiDirectoryNode" />
               <item name="recursion" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552906640233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553596511859" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Classes" />
   </component>
   <component name="RunDashboard">
@@ -189,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.HashTable">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.iim.ds.binarytree.BinaryTree" />
       <module name="Algorithms" />
@@ -203,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.iim.algorithms.MergeSort" />
+    <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.iim.hashtable.HashTable" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.iim.algorithms.*" />
+          <option name="PATTERN" value="ro.iim.hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.QuickSortMedianOfThree" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +308,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15973742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29102844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -290,7 +317,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42669585" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22319475" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,7 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/binarytree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="119">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="e#133#134#0" expanded="true" />
@@ -525,19 +552,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/iim/ds/binarytree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-613">
+        <state relative-caret-position="17">
           <caret line="109" column="64" selection-start-line="109" selection-start-column="64" selection-end-line="109" selection-end-column="64" />
           <folding>
             <element signature="method#find#0;class#BinaryTree#0" />
             <element signature="method#insert#0;class#BinaryTree#0" />
-            <element signature="e#599#1284#1" />
-            <element signature="e#684#1274#1" />
-            <element signature="e#761#1006#1" />
-            <element signature="e#863#988#1" />
-            <element signature="e#1012#1260#1" />
-            <element signature="e#1116#1242#1" />
             <element signature="method#inOrder#0;class#BinaryTree#0" />
-            <element signature="e#1397#1517#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/hashtable/DataItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/iim/hashtable/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="79" column="46" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+          <folding>
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1784#1785#0" expanded="true" />
           </folding>
         </state>
       </provider>
